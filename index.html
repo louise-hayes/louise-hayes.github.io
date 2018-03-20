@@ -1,42 +1,166 @@
-<!-- Relative Paths Assignment 1 -->
 <!DOCTYPE html>
-<html lang="en-us">
+
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Relative Paths Assignment 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 
-  <!-- Fill in the href to the CSS such that this HTML file can access the CSS. -->
-  <!-- Don't move the HTML or CSS file. Use Relative Linking -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
+
+
+
 
   <div class="container">
 
-    <section id="main-bio">
+    <nav class="navbar navbar-default" role="navigation">
 
-      <h2>Your Name</h2>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+          <a class="navbar-brand" href="index.html">Louise Hayes</a>
+        </div>
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+        <!-- right nav -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!--Navbar-->
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
+
+
+    <!-- Main content row About Me and Contact Me -->
+    <div class="row">
+      <!-- About Me Column -->
+      <div class="col-md-8">
+
+        <h1>About Me</h1>
+        <img src="assets/images/profilepic.jpg" height="200px" width="200px" alt="sunriseimg" class="pull-left gap-right img-responsive">
+        <h3>What I'd Like You To Know: </h3>
+        <p>
+          I bring a lot of different hats to the table. I obtained my Computer Science Degree 20 years ago, in
+          Galway RTC, Ireland. After 2 year Cobol programmer role I landed in SAP. I spent 7 years working in
+          large ERP companies installing and upgrading SAP systems on multiple hardware, OS and DB platforms.
+        </p>
+        <p>
+          In 2006, I started my own Web hosting and developing company with my programmer partner. I was the jack of all trades, the account manager,
+          tester, mockup maker, dream weaver, Google analyzer, SEO optimizer, client liason, trainer, documentation maker,
+          graphics designer, E-commerce builder, Joomla, Wordpress and Typo3 content manager and CSS HTML frontend developer, and PHP script maker.
+        </p>
+        <p>In 2017 I moved to the US and started a UNH FullStack MERN Coding BootCamp. I am now very happy to be a full stack developer, I am mad about technology and am very happy to be programming, after many years of trying different areas in
+          the technology field.
+        </p>
+
+
+        <h3>Interesting Facts:</h3>
+        <ul>
+          <li>I have recently (2016) moved here from Ireland, Co. Waterford, Dungarvan.
+          </li>
+          <li>I can speak Irish (Gaelic), play the Tin Whistle and Guitar, although not all at the same time!
+          </li>
+          <li>I have travelled to 20 countries.
+          </li>
+          <li>I studied for 3 years as a Naturopath in Australia
+          </li>
+          <li>I once spent 3 days locked in a room coding a Pascal program.
+          </li>
+          <li>My passions are travelling, guitar, technology, making clothes, jogging, music, food as medicine, my kids and family.
+          </li>
+        </ul>
+
+        <h3>My Fav Apps:</h3>
+        <ul>
+          <li>Whatsapp - for keeping in touch with my family at home in Ireland</li>
+          <li>Choremonster - to manage my kids!</li>
+          <li>Mothership - to manage my kids</li>
+          <li>Skype - for fun</li>
+          <li>Slack - for work</li>
+          <li>Seesaw - viewing school activities</li>
+          <li>Twitter - love hearing about new technologies</li>
+          <li>Facebook - am no longer allowed use it as I get lost for hours!</li>
+          <li>Spotify - could not live without it</li>
+          <li>Sign-up Genius - for organising anything</li>
+        </ul>
+
+
+        <h3>Technology prediction - what will take over in the next 10 years:</h3>
+        <p>VR! The scope for live concerts, ball games, and of course grocery shopping..just imagine!
+        </p>
+
+
+      </div>
+
+      <!-- Contact Me Column -->
+      <div class="col-md-3">
+
+        <h2>Connect with Me</h2>
+        <a class="icon1" href="mailto://louise@deewhy.ie"> <img class="imgclass" alt="email" src = "assets/images/caticon.jpg"/> </a>
+        <a class="icon2" href="https://www.linkedin.com/in/louise-fitzpatrick-25304833/"> <img class="imgclass" alt="linkdin" src = "assets/images/linkdnicon.jpg"/> </a>
+        <a class="icon3" href="https://mobile.twitter.com/home"> <img class="imgclass" alt="twitter" src = "assets/images/randomicon.jpg"/> </a>
+
+      </div>
+
+    </div>
+    <!-- end row 1 -->
+
+    <!-- start row 2 Footer-->
+    <div class="row">
+      <div class="col-md-12">
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+          <div class="container-fluid">
+            © 2017 Copyright: Louise Hayes
+          </div>
+        </div>
+        <!--/.Copyright-->
+      </div>
+
+    </div>
+    <!-- end row footer -->
+
   </div>
 
+
+  <!-- end container -->
 </body>
 
 </html>
