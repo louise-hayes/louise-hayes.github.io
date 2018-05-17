@@ -4,6 +4,8 @@
 
 .container {
     padding-top:15px;
+    padding-bottom:30px;
+    
 }
 
 .navbar-default .navbar-brand {
@@ -44,4 +46,8 @@ h2{
 .thumbnail .caption {
     color: #ffffff;
     font-size: 20px;
+}
+
+.imgclass :hover {
+border:1px solid red;
 }
