@@ -12,6 +12,7 @@
  background-color: #4aaaa5;
  color: #ffffff;
 }
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 25px; 
@@ -48,6 +49,15 @@ h2{
     font-size: 20px;
 }
 
-.imgclass :hover {
-border:1px solid red;
-}
+.imgclass:hover {
+    opacity: 0.3;
+  }
+
+  .navbar-header:hover{
+    /* background: lightgrey; */
+    
+  }
+
+  .nav>li:hover{
+    text-decoration: underline;
+    }
